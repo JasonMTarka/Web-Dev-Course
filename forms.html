@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Forms</h1>
+    <h2>Reddit Search</h2>
+    <form action="https://www.reddit.com/search/">
+      <div>
+        <label for="search">Search</label
+        ><input type="text" id="search" name="q" />
+      </div>
+      <button>Submit</button>
+    </form>
+    <form action="">
+      <h2>Shirt Form</h2>
+      <div>
+        <label for="xs">XS:</label>
+        <input type="radio" name="size" id="xs" value="xs" />
+        <label for="s">S:</label>
+        <input type="radio" name="size" id="s" value="s" />
+        <label for="m">M:</label>
+        <input type="radio" name="size" id="m" value="m" />
+      </div>
+      <textarea name="requests" id="requests"></textarea>
+      <button>Press Me</button>
+    </form>
+    <h2>Validations Demo</h2>
+    <form action="">
+      <label for="name"></label>Username<input
+        type="text"
+        id="name"
+        minlength="5"
+        maxlength="20"
+        required
+      />
+    </form>
+
+    <h1>Race Registration!</h1>
+    <form action="">
+      <div>
+        <label for="first_name">First Name</label>
+        <input type="text" id="first_name" required />
+        <label for="last_name">Last Name</label>
+        <input type="text" id="last_name" required />
+      </div>
+      <div>
+        <p>Select a Race:</p>
+        <input type="radio" name="race" id="fun" value="fun" />
+        <label for="fun">Fun Run 5k</label>
+        <br />
+        <input type="radio" name="race" id="half" value="half" />
+        <label for="half">Half Marathon</label>
+        <br />
+        <input type="radio" name="race" id="full" value="full" />
+        <label for="full">Full Marathon</label>
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" required />
+        <label for="password"></label>Password<input
+          type="password"
+          name="password"
+          id="password"
+          required
+        />
+      </div>
+      <div>
+        <label for="age">Select age group:</label
+        ><select name="age" id="age">
+          <option value="young">Below 18</option>
+          <option value="medium">18-30</option>
+          <option value="aged">31+</option>
+        </select>
+      </div>
+      <button type="submit">Register</button>
+    </form>
+  </body>
+</html>

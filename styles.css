@@ -1,0 +1,22 @@
+h1 {
+  text-align: center;
+  width: 50%;
+  text-decoration: blue underline;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  color: rebeccapurple;
+}
+
+button {
+  color: rgb(128, 121, 128);
+}
+
+/* {
+  color: rgb(224, 5, 5);
+} */
+
+.list-item {
+  color: darkblue;
+}
