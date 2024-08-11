@@ -13,10 +13,21 @@ button {
   color: rgb(128, 121, 128);
 }
 
-/* {
-  color: rgb(224, 5, 5);
-} */
+.item {
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
 
-.list-item {
-  color: darkblue;
+.item:active:nth-child(odd) {
+  color: rgb(162, 226, 43);
+  border: 210px;
+}
+
+.item:hover {
+  border-left: 5px solid rebeccapurple;
+}
+
+.item:active {
+  color: rebeccapurple;
 }
